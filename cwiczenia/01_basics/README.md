@@ -138,9 +138,15 @@ Pamiętając o [Fallacies of distributed computing](https://en.wikipedia.org/wik
 
 7. Co to są *circuit breakers* i do czego służą? Dlaczego to jest ważny element aplikacji Netfixa? Zanotuj w `README.md`.
 
+**ODP:** Circuit breaker is a design pattern used in software development. It is used to detect failures and encapsulates the logic of preventing a failure from constantly recurring, during maintenance, temporary external system failure or unexpected system difficulties.
+
 8. Patrząc od strony programisty w Netflixie czy Allegro budującego serwis, dlaczego chcemy uniknąć *cascading failures*?
 
+**ODP:** Nie chcemy aby przez nawarstwiające się błędy, rezultat mogł by uniemożliwić korzystanie z całego serwisu lub pod serwisów.
+
 9. Patrząc od strony programisty w Amazonie budującego serwis, dlaczego *graceful degradation* jest ważny?
+
+**OPD:** Chcemy jak najmniejszy "bisnes impact".
 
 ### Praca z danymi w formacie z JSON 1
 
